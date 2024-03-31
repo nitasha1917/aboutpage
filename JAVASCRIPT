@@ -1,0 +1,10 @@
+JAVASCRIPT
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Simulate form submission (replace with actual AJAX call if needed)
+    setTimeout(function() {
+        alert('Thank you for your message!');
+        document.getElementById('contact-form').reset(); // Reset form fields
+    }, 500);
+});
